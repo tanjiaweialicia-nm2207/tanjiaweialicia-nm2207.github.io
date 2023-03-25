@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Sexual Assault Statistics in Singapore</title>
+        <!--Metadata on webpage-->
+        <meta name="description" value="This project is for NM2207. The dataset I am showcasing is on sexual assault statistics in Singapore. Enjoy!">
+        <meta name="keywords" value="sexual assault, NM2207, final project, NUS">
+        <!--ChartJS-->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+        <!--CSS and JavaScript-->
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <script defer type="text/javascript" src="appscripts/main.js"></script>
+        <!--Shortcut icon-->
+        <link rel="shortcut icon" href="resources/feminismSymbol.png" type="image/x-icon">
+        <script defer type="text/javascript" src="appscripts/main.js">
+        </script>
+    </head>
+</html>
+
+<body>
+    <div class="container">
+        <!--Introduction to topic-->
+
+        <header class="header">
+            <h1>How many cases of sexual assault and outrage of modesty are there in Singapore?</h1>
+          </header>
+
+          <!--Main body-->
+
+          <!--Over here I add buttons to click on to get data. I will insert a function to be triggered
+        when a button is clicked! I have not managed to do that yet-->
+          <article class="sidebar">
+            <input type = "button" value = "click me for statistics on outrage of modesty!" onclick="outrage()">
+            <br>
+            <input type = "button" value = "click me for statistics on sexual assault!" onclick="assault()">
+            <br>
+            <input type = "button" value = "click me for overall statistics!" onclick="overall()">
+            <br>
+            <p>Also, please refer to the Word Doc for my diary entry as well, I know it was stated in the
+            instructions to put it on the webpage but my diary entry has a lot of photos in it!
+        </p>
+          </article>
+
+          <article class="content">
+            <p>I will be using the front portion of the webpage to elaborate more on the nature of sexual
+                assault in Singapore, almost like a mini-essay. Sorry it's not out yet, I'll need some time
+                to work on it! Just like the rest of my webpage :'D
+            </p>
+            <p>Here's my <a href="resources/interimProjectSubmission.docx">Word document</a> detailing what 
+                I have learnt along with diary entry recordings</p>
+            <div id="canvas-container">
+                <img src="resources/licensed-image.jpeg" width = 500px height = auto>
+                <p>The ChartJS canvas isnt out yet so here's a cute Siamese cat in place of it!</p>
+                <canvas id="canvas" width="400" height="400"></canvas>
+            </div>
+          </article>
+
+          <article class="sidebar" id="bodyText">
+            <p>Over here I will be adding in some insights and personal thoughts on sexual assault using
+                the document.getElementById function in my Javascript. So when I click on the button on the
+                left not only will it show the chart with relevant data but also some personal insights.</p>
+          </article>
+
+          <footer class = "footer">
+            <p>Thank you for viewing my webpage! Hope you learnt something insightful from it! :D</p>
+          </footer>
+        </div>
+    </div>
+</body>
